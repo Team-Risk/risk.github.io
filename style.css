@@ -116,6 +116,13 @@ body {
     background-color: transparent;
 }
 
+.subsubc {
+    font-size: 20px;
+    color: white;
+    padding-left: 10%;
+    padding-bottom: 50px;
+}
+
 .subsub {
     font-size: 20px;
     color: white;
@@ -502,6 +509,11 @@ footer {
     cursor: pointer;
 }
 
+.clickablelg {
+    cursor: pointer;
+}
+
+
 .imgimg {
     padding-left: 10%;
     width: 500px;
@@ -563,3 +575,121 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 800px) {
+    .hero {
+        width: 500px;
+        margin-right: 250px;
+      opacity: 0;
+      justify-content: left;
+      font-size: 10px;
+      scale: 10px; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+
+  
+@media screen and (max-width: 800px) {
+    .listitem .header {
+        width: 500px;
+        margin-right: 250px;
+      justify-content: left;
+      scale: 20%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .clickablelg {
+        scale: 100%;
+    }
+
+    .imgimg {
+        width: 100px;
+        padding: 0;
+        padding-right: 500px;
+    }
+    .mainsubtitle {
+        font-size: 12px;
+    }
+
+    main {
+        margin-top: 40px;
+    }
+    .newsitem{ 
+        font-size: 20px;
+    }
+    .subsub{ 
+        font-size: 10px;
+    }
+    .subsubc{ 
+        font-size: 10px;
+    }
+    .captiontext {
+        font-size: 15px;
+    }
+    .subcaptiontext {
+        font-size: 10px;
+    }
+    .newslistimage {
+        width: 250px;
+    }
+
+    .subsubsub {
+        font-size: 10px;
+    }
+
+    .playertophead {
+        flex-wrap: wrap;
+    }
+    .delmobile {
+        scale: 0%;
+        position: fixed;
+    }
+    .plyname {
+        font-size: 50px;
+    }
+    .blog {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .blogimg {
+        scale: 40%;
+        margin-top: -100px;
+    }
+    .bloghead {
+        color: white;
+        background-color: black;
+        display: inline;
+        font-family: 'termina-black';
+        display: flex;
+        padding-top: 50px;
+        font-size: 175%;
+        justify-content: center;
+    }
+    .blogheadsub {
+        color: white;
+        background-color: black;
+        display: inline;
+        display: flex;
+        justify-content: center;
+    }
+    .blogtitle {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        margin-top: -100px;
+        flex-wrap: wrap;
+        scale: 90%;
+    }
+    .blogtext {
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        width: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 300px;
+    }
+    .tourneyhead {
+        font-size: 25px;
+    }
+    .plyerlstentry {
+        margin: 25px;
+    }
+  }
