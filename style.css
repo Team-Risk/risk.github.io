@@ -1,0 +1,565 @@
+
+
+@font-face {
+    font-family: "termina-reg";
+    src: url("./fonts/terminatest-regular-webfont.woff") format("woff"),
+}
+
+@font-face {
+    font-family: "termina-black";
+    src: url("./fonts/terminatest-black-webfont.woff") format("woff"),
+}
+
+@font-face {
+    font-family: "termina-med";
+    src: url("./fonts/terminatest-bold-webfont.woff") format("woff"),
+}
+
+@font-face {
+    font-family: "termina-light";
+    src: url("./fonts/terminatest-extralight-webfont.woff") format("woff"),
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'termina-reg';
+    background-color: black;
+}
+
+.hero {
+    font-family: 'termina-black';
+    margin-left: 0%;
+    padding-left: 10%;
+    font-size: 50px;
+    color: white;
+}
+
+.mainsubtitle {
+    font-family: 'termina-reg';
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-bottom: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.header {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    margin-left: 0;
+    margin-right: 0%;
+    align-items: center;
+    color: white;
+    
+} 
+
+.listitem {
+    color: white;
+    float: left;
+    margin-left: 10px;
+    display: inline-block;
+    transition: 3s;
+}
+
+.headerlogoimg {
+    image-rendering: optimizeSpeed;
+}
+
+.listitem:hover {
+    color: #FF00BF;
+    font-family: 'termina-med';
+    font-size: 15px;
+    cursor:pointer;
+}
+
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 50%;
+ }
+
+.newsitem {
+    color: white;
+    background-color: black;
+    display: inline;
+    font-family: 'termina-black';
+    padding-left: 10%;
+    display: flex;
+    padding-top: 50px;
+}
+
+.newsNOPitem {
+    color: white;
+    background-color: black;
+    display: inline;
+    font-family: 'termina-black';
+    display: flex;
+    padding-top: 50px;
+    margin-right: 100px;
+}
+main {
+    margin-top: 300px;
+    background: none;
+    
+}
+
+body {
+    background-color: transparent;
+}
+
+.subsub {
+    font-size: 20px;
+    color: white;
+    padding-left: 10%;
+}
+
+.newslist {
+    display: flex;
+    margin-left: 10%;
+    flex-wrap: wrap;
+    
+}
+
+.newslistimage{
+    border-radius: 20px;
+    transition: 3s;
+    width: 500px;
+}
+
+.newslistimage:hover {
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.captiontext {
+    color: white;
+    font-size: 1.5em;
+}
+
+.subcaptiontext {
+    color: white;
+    font-size: 1em;
+}
+
+.newslistentry {
+    margin-left: 20px;
+    margin-top: 1%;
+}
+
+.gamesignifier {
+    color: white;
+    font-size: 10px;
+}
+
+.button {
+    background-color: #FF00BF;
+    display: inline;
+    margin-left: 10%;
+    border-radius: 100px;
+    padding: 10px;
+    font-size: 90%;
+    transition: 1s;
+    color: white;
+}
+
+.button:hover {
+    background-color: chartreuse;
+    display: inline;
+    margin-left: 10%;
+    border-radius: 100px;
+    padding: 10px;
+    font-size: 100%;
+    color: white;
+    cursor: pointer;
+}
+
+.fourzerofour{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'termina-black';
+    scale: 500%;
+    opacity: 50%;
+    background-color: transparent;
+}
+
+.fourzfsub {
+    color: white;
+    display: flex;
+    justify-content: center;
+    opacity: 100%;
+    margin-top: 50px;
+}
+
+.vorb {
+    justify-content: center;
+    display: flex;
+    background-color: transparent;
+    flex-wrap: wrap;
+}
+
+.gamebutton {
+    color: white;
+    background-color: #FF00BF;
+    padding: 10px;
+    scale: 125%;
+    margin: 50px;
+    border-radius: 10px;
+    transition: 1s;
+    
+}
+
+.gamebutton:hover {
+    background-color: chartreuse;
+    font-family: 'termina-black';
+    cursor: pointer;
+}
+
+.buttonsubhead {
+    color: white;
+    opacity: 50%;
+}
+
+.subsubsub {
+    color: white;
+    opacity: 50%;
+    padding-left: 10%;
+    font-size: 20px;
+}
+
+.playercardlist {
+    display: flex;
+    margin-left: 10%;
+    animation: slide infinite 3s alternate ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 10px;
+}
+
+.playercardlist:hover {
+    animation-play-state: paused;
+}
+
+.imgrnd {
+    border-radius: 20px;
+}
+
+
+
+@keyframes slide {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -100px;
+  }
+}
+
+.playername {
+    color: #FF00BF;
+    font-family: 'termina-black';
+}
+
+.playernameimportant {
+    color: red;
+    font-family: 'termina-black';
+}
+
+.playernamelist {
+    padding-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.playerminidesc {
+    color: white;
+    font-size: 90%;
+    opacity: 50%;
+}
+
+.tourneyprizepool {
+    color: white;
+    font-size: 120%;
+    font-family: 'termina-black';
+    color: gold;
+}
+
+.tourneygamesignifier {
+    color: chartreuse;
+    font-size: 75%;
+    font-family: 'termina-light';
+    text-decoration: none;
+}
+
+.tourneyvodgamesignifier {
+    color: chartreuse;
+    font-size: 50%;
+    font-family: 'termina-light';
+    text-decoration: none;
+}
+
+.tourneygamesignifier:hover {
+    color:#FF00BF;
+    font-size: 75%;
+    font-family: 'termina-light';
+    text-decoration: none;
+}
+
+
+
+.playerminidesclight {
+    color: white;
+    font-size: 90%;
+    opacity: 50%;
+    font-family: 'termina-light';
+    font-size: 80%;
+}
+
+.miniregion {
+    color: white;
+    font-size: 50%;
+    opacity: 50%;
+}
+
+.plyerlstentry {
+    margin: 50px;
+}
+.playertophead {
+    display: flex;
+}
+
+.plyinfolistitem {
+    margin-left: 10%;
+}
+
+.plyinfodesc {
+    color: white;
+    opacity: 50%;
+    padding-left: 10%;
+    font-size: 20px;
+    
+}
+
+.plyname {
+    font-family: 'termina-black';
+    font-size: 500%;
+    color: white;
+    justify-content: center;
+}
+
+.plyprofile {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.plycsmall {
+    width: 300px;
+    padding-left: 10%;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.plyinfotruedesc {
+    color: white;
+    padding-left: 10%;
+}
+
+.highemphasisglow {
+    color: white;
+    padding-left: 10%;
+    animation: glowy infinite 1s alternate;
+    margin-top: 15px;
+}
+
+@keyframes glowy {
+    0% {
+      color:chartreuse;
+    }
+    100% {
+      color: #FF00BF;
+    }
+  }
+
+.vidd {
+    border-radius: 15%;
+    padding-left: 10%;
+    width: 500px;
+    height: 250px;
+}
+
+.navlink {
+    color: white;
+    text-decoration: none;
+}
+
+.nolink {
+    text-decoration: none;
+    color: #FF00BF;
+    font-family: 'termina-black';
+}
+
+.nolink2 {
+    text-decoration: none;
+    color: white;
+    font-family: 'termina-black';
+    background-color: transparent;
+}
+
+.nolink3 {
+    text-decoration: none;
+    color: white;
+    font-family: 'termina-light';
+    background-color: transparent;
+}
+
+.tourneylstentry {
+    margin: 10px;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.nolinkimp {
+    text-decoration: none;
+    color: red;
+    font-family: 'termina-black';
+}
+
+.tournamentlist {
+    padding-left: 10%;
+    display: flex;
+}
+
+.tournamentname {
+    color: #FF00BF;
+    font-family: 'termina-black';
+}
+
+.tournamentname:hover {
+    color: chartreuse;
+    font-family: 'termina-black';
+}
+
+.iconres {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.tourneyiconflex {
+    display: flex;
+}
+
+footer {
+    display: flex;
+    color: white;
+    justify-content: center;
+    background-color:#FF00BF;
+}
+
+.tourneyhead {
+    color: white;
+    background-color: black;
+    display: inline;
+    font-family: 'termina-black';
+    padding-left: 10%;
+    display: flex;
+    padding-top: 50px;
+    font-size: 100px;
+}
+
+.jtc {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    text-decoration: none;
+    color: #FF00BF;
+    font-family: 'termina-black';
+    transition: 0.5s;
+    font-size: 125%;
+    padding: 10px
+}
+
+.jtc:hover {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.imgimg {
+    padding-left: 10%;
+    width: 500px;
+    display: flex;
+    padding-right: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+          
+}
+
+.blog {
+    display: flex;
+    justify-content: center;
+}
+
+.blogimg {
+    width: 720px;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #FF00BF;
+}
+
+.bloghead {
+    color: white;
+    background-color: black;
+    display: inline;
+    font-family: 'termina-black';
+    display: flex;
+    padding-top: 50px;
+    font-size: 500%;
+}
+
+.blogtitle {
+    color: white;
+    background-color: black;
+    display: inline;
+    font-family: 'termina-black';
+    display: flex;
+    padding-top: 15px;
+}
+
+.blogtext {
+    color: white;
+    width: 720px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blogheadsub{
+    color: white;
+    background-color: black;
+    display: inline;
+    font-family: 'termina-reg';
+    display: flex;
+    opacity: 50%;
+}
+
+.secret {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
