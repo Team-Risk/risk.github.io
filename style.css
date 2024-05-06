@@ -1,4 +1,10 @@
 
+:root {
+    --clr-dark: black;
+    --clr-light: white;
+}
+
+
 
 @font-face {
     font-family: "termina-reg";
@@ -24,7 +30,7 @@
     margin: 0;
     padding: 0;
     font-family: 'termina-reg';
-    background-color: black;
+    background-color: var(--clr-dark);
 }
 
 .hero {
@@ -32,7 +38,7 @@
     margin-left: 0%;
     padding-left: 10%;
     font-size: 50px;
-    color: white;
+    color: var(--clr-light);
 }
 
 .mainsubtitle {
@@ -40,21 +46,21 @@
     padding-top: 20px;
     padding-left: 10%;
     padding-bottom: 20px;
-    color: white;
+    color: var(--clr-light);
     background-color: rgba(0, 0, 0, 0.1);
 }
 .header {
     display: flex;
-    background-color: black;
+    background-color: var(--clr-dark);
     padding: 10px;
     margin-left: 0;
     margin-right: 0%;
     align-items: center;
-    color: white;
+    color: var(--clr-light);
 } 
 
 .listitem {
-    color: white;
+    color: var(--clr-light);
     float: left;
     margin-left: 10px;
     display: inline-block;
@@ -86,9 +92,11 @@
     opacity: 50%;
  }
 
+
+
 .newsitem {
-    color: white;
-    background-color: black;
+    color: var(--clr-light);
+    background-color: var(--clr-dark);
     display: inline;
     font-family: 'termina-black';
     padding-left: 10%;
@@ -97,8 +105,8 @@
 }
 
 .newsNOPitem {
-    color: white;
-    background-color: black;
+    color: var(--clr-light);
+    background-color: var(--clr-dark);
     display: inline;
     font-family: 'termina-black';
     display: flex;
@@ -117,14 +125,14 @@ body {
 
 .subsubc {
     font-size: 20px;
-    color: white;
+    color: var(--clr-light);
     padding-left: 10%;
     padding-bottom: 50px;
 }
 
 .subsub {
     font-size: 20px;
-    color: white;
+    color: var(--clr-light);
     padding-left: 10%;
 }
 
@@ -147,12 +155,12 @@ body {
 }
 
 .captiontext {
-    color: white;
+    color: var(--clr-light);
     font-size: 1.5em;
 }
 
 .subcaptiontext {
-    color: white;
+    color: var(--clr-light);
     font-size: 1em;
 }
 
@@ -162,7 +170,7 @@ body {
 }
 
 .gamesignifier {
-    color: white;
+    color: var(--clr-light);
     font-size: 10px;
 }
 
@@ -174,7 +182,7 @@ body {
     padding: 10px;
     font-size: 90%;
     transition: 1s;
-    color: white;
+    color: var(--clr-light);
 }
 
 .button:hover {
@@ -184,12 +192,12 @@ body {
     border-radius: 100px;
     padding: 10px;
     font-size: 100%;
-    color: white;
+    color: var(--clr-light);
     cursor: pointer;
 }
 
 .fourzerofour{
-    color: white;
+    color: var(--clr-light);
     display: flex;
     justify-content: center;
     font-family: 'termina-black';
@@ -199,7 +207,7 @@ body {
 }
 
 .fourzfsub {
-    color: white;
+    color: var(--clr-light);
     display: flex;
     justify-content: center;
     opacity: 100%;
@@ -214,7 +222,7 @@ body {
 }
 
 .gamebutton {
-    color: white;
+    color: var(--clr-light);
     background-color: #FF00BF;
     padding: 10px;
     scale: 125%;
@@ -231,12 +239,12 @@ body {
 }
 
 .buttonsubhead {
-    color: white;
+    color: var(--clr-light);
     opacity: 50%;
 }
 
 .subsubsub {
-    color: white;
+    color: var(--clr-light);
     opacity: 50%;
     padding-left: 10%;
     font-size: 20px;
@@ -286,13 +294,13 @@ body {
 }
 
 .playerminidesc {
-    color: white;
+    color: var(--clr-light);
     font-size: 90%;
     opacity: 50%;
 }
 
 .tourneyprizepool {
-    color: white;
+    color: var(--clr-light);
     font-size: 120%;
     font-family: 'termina-black';
     color: gold;
@@ -322,7 +330,7 @@ body {
 
 
 .playerminidesclight {
-    color: white;
+    color: var(--clr-light);
     font-size: 90%;
     opacity: 50%;
     font-family: 'termina-light';
@@ -330,7 +338,7 @@ body {
 }
 
 .miniregion {
-    color: white;
+    color: var(--clr-light);
     font-size: 50%;
     opacity: 50%;
 }
@@ -347,7 +355,7 @@ body {
 }
 
 .plyinfodesc {
-    color: white;
+    color: var(--clr-light);
     opacity: 50%;
     padding-left: 10%;
     font-size: 20px;
@@ -357,7 +365,7 @@ body {
 .plyname {
     font-family: 'termina-black';
     font-size: 500%;
-    color: white;
+    color: var(--clr-light);
     justify-content: center;
 }
 
@@ -374,8 +382,9 @@ body {
 }
 
 .plyinfotruedesc {
-    color: white;
+    color: var(--clr-light);
     padding-left: 10%;
+    width: 500px;
 }
 
 .plyinfotruedesc2 {
@@ -384,7 +393,7 @@ body {
 }
 
 .highemphasisglow {
-    color: white;
+    color: var(--clr-light);
     padding-left: 10%;
     animation: glowy infinite 1s alternate;
     margin-top: 15px;
@@ -407,7 +416,7 @@ body {
 }
 
 .navlink {
-    color: white;
+    color: var(--clr-light);
     text-decoration: none;
 }
 
@@ -419,14 +428,14 @@ body {
 
 .nolink2 {
     text-decoration: none;
-    color: white;
+    color: var(--clr-light);
     font-family: 'termina-black';
     background-color: transparent;
 }
 
 .nolink3 {
     text-decoration: none;
-    color: white;
+    color: var(--clr-light);
     font-family: 'termina-light';
     background-color: transparent;
 }
@@ -472,14 +481,14 @@ html, body {
 
 footer {
     display: flex;
-    color: white;
+    color: var(--clr-light);
     justify-content: center;
     background-color:#FF00BF;
 }
 
 .tourneyhead {
-    color: white;
-    background-color: black;
+    color: var(--clr-light);
+    background-color: var(--clr-dark);
     display: inline;
     font-family: 'termina-black';
     padding-left: 10%;
@@ -505,7 +514,7 @@ footer {
     justify-content: center;
     margin: 100px;
     text-decoration: none;
-    color: white;
+    color: var(--clr-light);
     font-size: 100%;
 }
 
@@ -540,8 +549,8 @@ footer {
 }
 
 .bloghead {
-    color: white;
-    background-color: black;
+    color: var(--clr-light);
+    background-color: var(--clr-dark);
     display: inline;
     font-family: 'termina-black';
     display: flex;
@@ -550,8 +559,8 @@ footer {
 }
 
 .blogtitle {
-    color: white;
-    background-color: black;
+    color: var(--clr-light);
+    background-color: var(--clr-dark);
     display: inline;
     font-family: 'termina-black';
     display: flex;
@@ -567,7 +576,7 @@ footer {
 
 .blogheadsub{
     color: white;
-    background-color: black;
+    background-color: var(--clr-dark);
     display: inline;
     font-family: 'termina-reg';
     display: flex;
@@ -658,7 +667,7 @@ footer {
     }
     .bloghead {
         color: white;
-        background-color: black;
+        background-color: var(--clr-dark);
         display: inline;
         font-family: 'termina-black';
         display: flex;
@@ -668,7 +677,7 @@ footer {
     }
     .blogheadsub {
         color: white;
-        background-color: black;
+        background-color: var(--clr-dark);
         display: inline;
         display: flex;
         justify-content: center;
