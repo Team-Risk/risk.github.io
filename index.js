@@ -6,6 +6,11 @@ const theme = localStorage.getItem('theme');
 var realtheme = document.querySelector(':root');
 
 console.log(theme);
+
+function play() {
+    var audio = document.getElementById("audio");
+    audio.play();
+  }
 /*
 if (theme) {
     realtheme.style.setProperty('--clr-dark', 'white')

@@ -4,6 +4,44 @@
     --clr-light: white;
 }
 
+.stomplore-escape {
+    display: flex;
+    width: 700px;
+    border-radius: 10px;
+}
+
+.stomplore {
+    display: flex;
+    align-items: center;
+}
+
+.w-dialog {
+    color: #FF00BF;
+    font-size: 20px;
+    animation: infinite;
+    animation-duration: 1s;
+    animation-name: w-textanim;
+    flex-wrap: wrap;
+}
+
+.s-dialog {
+    color: chartreuse;
+    font-size: 20px;
+    animation: infinite;
+    animation-duration: 500ms;
+    animation-name: w-textanim;
+}
+
+.detease {
+    color: #FF00BF;
+    font-family: 'termina-black';
+    animation: infinite;
+    animation-duration: 5s;
+    animation-name: w-textanim;
+    display:flex;
+    direction: rtl;
+}
+
 
 
 @font-face {
@@ -31,8 +69,33 @@
     padding: 0;
     font-family: 'termina-reg';
     background-color: var(--clr-dark);
+    
 }
 
+@keyframes w-textanim {
+    20% {
+        font-size: 20px;
+        font-family: 'termina-reg';
+    }
+    
+    40% {
+        font-size: 20px;
+        font-family: 'termina-black';
+        
+    }
+    60% {
+        font-size: 20px;
+        font-family: 'termina-light';
+    }
+    80% {
+        font-size: 20px;
+        font-family: 'termina-black';
+    }
+    100% {
+        font-size: 20px;
+        font-family: 'termina-reg';
+    }
+}
 .hero {
     font-family: 'termina-black';
     margin-left: 0%;
