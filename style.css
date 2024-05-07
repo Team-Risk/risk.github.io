@@ -24,6 +24,16 @@
     flex-wrap: wrap;
 }
 
+.null-dialog {
+    color: white;
+    font-size: 20px;
+    animation: infinite;
+    animation-duration: 1s;
+    animation-name: null-textanim;
+    flex-wrap: wrap;
+}
+
+
 .s-dialog {
     color: chartreuse;
     font-size: 20px;
@@ -47,6 +57,10 @@
 @font-face {
     font-family: "termina-reg";
     src: url("./fonts/terminatest-regular-webfont.woff") format("woff"),
+}
+@font-face {
+    font-family: "tomatoes";
+    src: url("./fonts/Tomatoes-O8L8.ttf") format("ttf"),
 }
 
 @font-face {
@@ -81,6 +95,32 @@
     40% {
         font-size: 20px;
         font-family: 'termina-black';
+        
+    }
+    60% {
+        font-size: 20px;
+        font-family: 'termina-light';
+    }
+    80% {
+        font-size: 20px;
+        font-family: 'termina-black';
+    }
+    100% {
+        font-size: 20px;
+        font-family: 'termina-reg';
+    }
+}
+
+@keyframes null-textanim {
+    20% {
+        font-size: 20px;
+        font-family: 'termina-reg';
+    }
+    
+    40% {
+        font-size: 20px;
+        font-family: 'tomatoes';
+        color: red;
         
     }
     60% {
