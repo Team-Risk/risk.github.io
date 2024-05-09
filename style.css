@@ -454,7 +454,8 @@ body {
 }
 
 .plyinfolistitem {
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .plyinfodesc {
@@ -811,5 +812,15 @@ footer {
     .vidd {
         width: 280px;
         height: 300px;
+    }
+    .plyinfotruedesc {
+        color: var(--clr-light);
+        padding-left: 10%;
+        font-size: 15px;
+        width: 150px;
+    }
+    .plyinfolistitem {
+        margin-left: 10%;
+        margin-right: 0%;
     }
   }
