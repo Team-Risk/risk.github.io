@@ -574,6 +574,34 @@ body {
     color: var(--clr-light);
     text-decoration: none;
 }
+em {
+    font-family: 'termina-black';
+}
+
+.benefit {
+    color: #FD00EB;
+    font-size: 20px;
+    font-family: 'termina-reg';
+    animation: benefitglow infinite 3s alternate ease-in-out;
+    animation-iteration-count: infinite;
+    margin-left: 50px;
+
+}
+
+.compbenefits {
+    padding-left: 10%;
+    display: flex;
+    margin-right: 50px;
+}
+@keyframes benefitglow {
+    0% {
+        color:#FD00EB
+    }
+
+    100% {
+        color: #FF00BF;
+    }
+}
 
 .downloadlink {
     text-decoration: none;
@@ -888,5 +916,13 @@ footer {
     .plyinfolistitem {
         margin-left: 10%;
         margin-right: 0%;
+    }
+    .benefit {
+        font-size: 13px;
+        margin-top: 40px;
+    }
+    .compbenefits {
+        flex-wrap: wrap;
+        
     }
   }
