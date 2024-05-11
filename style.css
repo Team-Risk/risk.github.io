@@ -519,10 +519,76 @@ body {
     height: 250px;
 }
 
+.c1 {
+    background-color: #FD00EB;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.c2 {
+    background-color: #FF00BF;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.c5 {
+    background-color: #030146;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.brandinglist {
+    display: flex;
+    padding-left: 10%;
+    flex-wrap: wrap;
+}
+
+.branditem {
+    margin-right: 150px;
+}
+.c3 {
+    background-color: #00FF77;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.c4 {
+    background-color: #7FFF00;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.colorlist {
+    display: flex;
+    padding-left: 10%;
+}
+
+.coloritem {
+    margin-right: 10px;
+}
 .navlink {
     color: var(--clr-light);
     text-decoration: none;
 }
+
+.downloadlink {
+    text-decoration: none;
+    color: #FF00BF;
+    font-family: 'termina-black';
+    padding-left: 10%;
+}
+
+.downloadlink:hover {
+    text-decoration: none;
+    color: #00FF77;
+    font-family: 'termina-black';
+    cursor: pointer;
+}
+
 
 .nolink {
     text-decoration: none;
