@@ -780,6 +780,15 @@ footer {
     margin-top: 10px;
 }
 
+.blogdescription {
+    color: white;
+    width: 720px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 75%;
+}
+
 .blogheadsub{
     color: white;
     background-color: var(--clr-dark);
