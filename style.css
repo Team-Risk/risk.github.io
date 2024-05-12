@@ -383,6 +383,13 @@ body {
 .playername {
     color: #FF00BF;
     font-family: 'termina-black';
+    text-decoration: none;
+}
+
+.playername:hover {
+    color: #FD00EB;
+    font-family: 'termina-black';
+    text-decoration: none;
 }
 
 .playernameimportant {
@@ -770,6 +777,7 @@ footer {
     width: 720px;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 10px;
 }
 
 .blogheadsub{
