@@ -353,6 +353,7 @@ body {
     font-size: 20px;
 }
 
+
 .playercardlist {
     display: flex;
     margin-left: 10%;
@@ -510,6 +511,14 @@ body {
     margin-top: 15px;
 }
 
+.featuredlink {
+    color: var(--clr-light);
+    padding-left: 10%;
+    color: #FD00EB;
+    margin-top: 15px;
+    font-family: 'termina-black';
+    text-decoration: none;
+}
 @keyframes glowy {
     0% {
       color:chartreuse;
