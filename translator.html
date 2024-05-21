@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>darkheart translator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="header">
+      <img src="images/Color.png" width="100px">
+      <ul >
+        <li class="listitem">
+          roster
+        </li >
+        <li class="listitem">
+          tournaments
+        </li>
+        <li class="listitem">
+          contact
+        </li>
+        <li class="listitem" >
+          join 
+        </li>
+      </ul>
+    </div>
+    <video class="featureleak2" src="./images/translationportal0001-0290.mp4" autoplay loop></video>
+    <div class="transc">
+      
+      <input type="text" id="dark" class="darkheart-trans">
+    
+    <button onclick="output()">test</button>
+    <h1 id="result" class="decoded"></h1>
+    
+  </div>
+      <video src="./images/riskambience.ogg" autoplay loop width="0px"></video>
+      <video src="./images/translatorambience.wav" autoplay loop width="0px"></video>
+    <main>
+
+    </main> 
+	<script>
+    function output(){
+    var value1 = document.getElementById('dark').value;
+
+    document.getElementById('result').innerHTML = atob(value1);
+    var audio = new Audio('./conversion.mp3');
+    audio.play();
+}
+  </script>
+  </body>
+</html>
