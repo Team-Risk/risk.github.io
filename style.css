@@ -10,6 +10,22 @@
     border-radius: 10px;
 }
 
+.featureleak {
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    position: fixed;
+    z-index: -1;
+}
+
+.nothing {
+    font-family: 'termina-regular';
+    text-decoration: none;
+    opacity: 20%;
+    color: white;
+}
+
+
 .stomplore {
     display: flex;
     align-items: center;
@@ -22,6 +38,17 @@
     animation-duration: 1s;
     animation-name: w-textanim;
     flex-wrap: wrap;
+}
+
+.envisioner {
+    color: white;
+    font-size: 20px;
+    animation: infinite;
+    animation-duration: 20ms;
+    animation-name: e-textanim;
+    flex-wrap: wrap;
+    background-color: transparent;
+    
 }
 
 .null-dialog {
@@ -108,6 +135,34 @@
     100% {
         font-size: 20px;
         font-family: 'termina-reg';
+    }
+}
+
+@keyframes e-textanim {
+    20% {
+        font-size: 20px;
+        font-family: 'termina-reg';
+        color: white;
+    }
+    
+    40% {
+        font-size: 20px;
+        color: black;
+        
+    }
+    60% {
+        font-size: 20px;
+        font-family: 'termina-light';
+        color: white;
+    }
+    80% {
+        font-size: 20px;
+        color: black;
+    }
+    100% {
+        font-size: 20px;
+        font-family: 'termina-reg';
+        color: white;
     }
 }
 
@@ -205,6 +260,81 @@
     padding-left: 10%;
     display: flex;
     padding-top: 50px;
+}
+
+.qualification {
+    color: #FD00EB;
+    background-color: var(--clr-dark);
+    display: inline;
+    font-family: 'termina-reg';
+    padding-left: 10%;
+    font-size: 16px;
+    display: flex;
+}
+
+.coachingprice {
+    color: chartreuse;
+    background-color: var(--clr-dark);
+    display: inline;
+    font-family: 'termina-black';
+    padding-left: 10%;
+    font-size: 25px;
+    display: flex;
+}
+.purchaser {
+    color: white;
+    background-color: yellow;
+    display: inline;
+    font-family: 'termina-black';
+    animation: purchaselight infinite 1s alternate ease-in-out;
+    margin-left: 10%;
+    font-size: 25px;
+    justify-content: center;
+    width: 100px;
+    display: flex;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.coachingname {
+    color: white;
+    padding-left: 10%;
+}
+.emoji {
+    margin-left: 5px;
+}
+.sale {
+    color: white;
+    background-color: #00FF77;
+    display: inline;
+    font-family: 'termina-black';
+    animation: salelight infinite 1s alternate ease-in-out;
+    margin-left: 10%;
+    font-size: 25px;
+    justify-content: center;
+    width: 100px;
+    display: flex;
+    border-radius: 10px;
+}
+
+@keyframes salelight {
+    0% {
+        background-color: red;
+        
+    }
+    100% {
+        background-color: yellow;
+    }
+}
+
+@keyframes purchaselight {
+    0% {
+        background-color: #FD00EB;
+        
+    }
+    100% {
+        background-color: #FF00BF;
+    }
 }
 
 .newsNOPitem {
@@ -387,6 +517,13 @@ body {
     text-decoration: none;
 }
 
+.playername2 {
+    color: #FF00BF;
+    font-family: 'termina-black';
+    text-decoration: none;
+    padding-left: 10%;
+}
+
 .playername:hover {
     color: #FD00EB;
     font-family: 'termina-black';
@@ -446,6 +583,15 @@ body {
     opacity: 50%;
     font-family: 'termina-light';
     font-size: 80%;
+}
+
+.playerminidesclight2 {
+    color: var(--clr-light);
+    font-size: 90%;
+    opacity: 50%;
+    font-family: 'termina-light';
+    font-size: 80%;
+    padding-left: 10%;
 }
 
 .miniregion {
@@ -548,7 +694,15 @@ body {
     height: 100px;
     border-radius: 50px;
 }
+.coachingentry {
+    display: flex;
+    padding-left: 10%;
+    margin-top: 50px;
+}
 
+.coachimg {
+    border-radius: 10px;
+}
 .c5 {
     background-color: #030146;
     width: 100px;
@@ -821,6 +975,7 @@ footer {
     justify-content: center;
 }
 
+
 @media screen and (max-width: 800px) {
     .hero {
         width: 500px;
@@ -963,5 +1118,9 @@ footer {
     .compbenefits {
         flex-wrap: wrap;
         
+    }
+    .coachimg {
+        scale: 0%;
+        position:fixed;
     }
   }
