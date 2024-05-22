@@ -51,6 +51,12 @@
     }
 }
 
+.corruptbutton {
+    color: #FD00EB;
+    scale: 100px;
+    font-family: 'termina-heavy';
+}
+
 .transc {
     margin: auto;
     margin-left: 50%;
