@@ -31,7 +31,8 @@
       
       <input type="text" id="dark" class="darkheart-trans">
     
-    <button onclick="output()">test</button>
+    <button onclick="output()">purify</button>
+    <button onclick="output2()">infuse</button>
     <h1 id="result" class="decoded"></h1>
     
   </div>
@@ -45,6 +46,14 @@
     var value1 = document.getElementById('dark').value;
 
     document.getElementById('result').innerHTML = atob(value1);
+    var audio = new Audio('./conversion.mp3');
+    audio.play();
+}
+
+function output2(){
+    var value1 = document.getElementById('dark').value;
+
+    document.getElementById('result').innerHTML = btoa(value1);
     var audio = new Audio('./conversion.mp3');
     audio.play();
 }
