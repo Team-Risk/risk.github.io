@@ -85,6 +85,15 @@
     flex-wrap: wrap;
 }
 
+.e-dialog {
+    color: aqua;
+    font-size: 20px;
+    animation: infinite;
+    animation-duration: 1s;
+    animation-name: nd-textanim;
+    flex-wrap: wrap;
+}
+
 .envisioner {
     color: white;
     font-size: 20px;
@@ -158,6 +167,18 @@
     
 }
 
+@keyframes nd-textanim {
+    20% {
+        font-size: 20px;
+        color: yellow;
+    }
+    
+    100% {
+        font-size: 20px;
+        font-family: 'termina-reg';
+        color: aqua;
+    }
+}
 @keyframes w-textanim {
     20% {
         font-size: 20px;
