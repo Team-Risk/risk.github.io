@@ -315,9 +315,18 @@
     z-index: -1;
     opacity: 50%;
  }
+ .pad {
+    padding-left: 10%;
+ }
 
 
-
+ .newsitemnopadding {
+    color: var(--clr-light);
+    background-color: var(--clr-dark);
+    display: inline;
+    font-family: 'termina-black';
+    display: flex;
+}
 .newsitem {
     color: var(--clr-light);
     background-color: var(--clr-dark);
@@ -366,8 +375,67 @@
     color: white;
     padding-left: 10%;
 }
+.allianceapply {
+    font-family: 'termina-light';
+    color: #FF00BF;
+}
 .emoji {
     margin-left: 5px;
+}
+
+.riskallianceicon {
+    width: 300px;
+    justify-content: center;
+}
+
+.riskalliance {
+    display: flex;
+    justify-content: center;
+}
+.riskalliancelist {
+    display: flex;
+    justify-content: center;
+}
+.solidline {
+    background-color: aqua;
+    display: flex;
+    height: 1px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: -5%;
+}
+.alliancetext {
+    font-family: 'termina-black';
+    color: aqua;
+    position: absolute;
+    justify-content: center;
+}
+
+.alliancetitle {
+    font-family: 'termina-black';
+    color: aqua;
+    padding-left: 10%;
+    font-size: 16px;
+    justify-content: center;
+}
+
+.alliancetitleold {
+    font-family: 'termina-black';
+    color: gray;
+    padding-left: 10%;
+    font-size: 16px;
+    justify-content: center;
+}
+.alliancetext2 {
+    font-family: 'termina-black';
+    color: aqua;
+    position: absolute;
+    font-size: 16px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.allyentry {
+    padding-right: 10%;
 }
 .sale {
     color: white;
@@ -872,6 +940,17 @@ em {
     color: var(--clr-light);
     font-family: 'termina-light';
     background-color: transparent;
+}
+
+.nolink4 {
+    text-decoration: none;
+    color: aqua;
+    font-family: 'termina-black';
+}
+.nolink4:hover {
+    text-decoration: none;
+    color: #FD00EB;
+    font-family: 'termina-black';
 }
 
 .tourneylstentry {
