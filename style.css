@@ -273,6 +273,28 @@
     color: var(--clr-light);
     background-color: rgba(0, 0, 0, 0.1);
 }
+
+.allywordmark {
+    width: 500px;
+    animation-name: icespice;
+    animation-duration: 1s;
+}
+@keyframes icespice {
+    0% {
+        padding-right: 200px;
+        opacity: 0%;
+    }
+    100% {
+        padding-right: 0px;
+        opacity: 100%;
+    }
+}
+.mainsubtitle2 {
+    font-family: 'termina-black';
+    text-decoration: none;
+    color: var(--clr-light);
+    background-color: rgba(0, 0, 0, 0.1);
+}
 .header {
     display: flex;
     background-color: var(--clr-dark);
@@ -328,6 +350,15 @@
     display: flex;
 }
 .newsitem {
+    color: var(--clr-light);
+    background-color: var(--clr-dark);
+    display: inline;
+    font-family: 'termina-black';
+    padding-left: 10%;
+    display: flex;
+    padding-top: 50px;
+}
+.newsitemally {
     color: var(--clr-light);
     background-color: var(--clr-dark);
     display: inline;
@@ -395,6 +426,7 @@
 .riskalliancelist {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .solidline {
     background-color: aqua;
@@ -417,6 +449,7 @@
     padding-left: 10%;
     font-size: 16px;
     justify-content: center;
+    padding-bottom: 10px;
 }
 
 .alliancetitleold {
@@ -645,6 +678,8 @@ body {
   }
 }
 
+
+
 .playername {
     color: #FF00BF;
     font-family: 'termina-black';
@@ -809,6 +844,12 @@ body {
   }
 
 .vidd {
+    border-radius: 15px;
+    padding-left: 10%;
+    width: 500px;
+    height: 250px;
+}
+.viddally {
     border-radius: 15px;
     padding-left: 10%;
     width: 500px;
@@ -1096,6 +1137,15 @@ footer {
     margin-top: 10px;
 }
 
+
+.blogtextally {
+    color: white;
+    width: 720px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
 .blogdescription {
     color: white;
     width: 720px;
@@ -1152,12 +1202,19 @@ footer {
     .mainsubtitle {
         font-size: 12px;
     }
+    .mainsubtitle2 {
+        font-size: 12px;
+    }
 
     main {
         margin-top: 40px;
     }
     .newsitem{ 
         font-size: 20px;
+    }
+    .newsitemally{ 
+        font-size: 20px;
+        padding-left: 0%;
     }
     .subsub{ 
         font-size: 10px;
@@ -1212,6 +1269,10 @@ footer {
         padding-top: 50px;
         font-size: 175%;
         justify-content: center;
+    }
+    .allywordmark {
+        width: 250px;
+
     }
     .blogheadsub {
         color: white;
@@ -1272,5 +1333,21 @@ footer {
         scale: 150%;
         margin-left: 100px;
         margin-top: 100px;
+    }
+    .alliancetitle {
+        padding-left: 0%;
+    }
+    .allyentry {
+        padding-left: 0%;
+    }
+    .blogtextally {
+        padding-left: 0%;
+        text-wrap: wrap;
+        width: 300px;
+        font-size: 15px;
+    }
+    .viddally {
+        scale: 0%;
+        position: fixed;
     }
   }
