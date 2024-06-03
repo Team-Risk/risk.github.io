@@ -426,7 +426,13 @@
     animation-name: shake;
     animation-duration: 1s;
 }
-
+.allytextmini {
+    padding-left: 10%;
+    font-family: 'termina-light';
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+}
 @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
     10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -611,6 +617,31 @@ body {
     color: var(--clr-light);
     font-size: 10px;
 }
+.button2 {
+    background-color: red;
+    display: inline;
+    margin-left: 10%;
+    border-radius: 100px;
+    padding: 10px;
+    font-size: 90%;
+    transition: 1s;
+    color: var(--clr-light);
+}
+.allyeventnamesig {
+    color: white;
+    font-family: 'termina-black';
+    font-size: 16px;
+}
+.button2:hover {
+    background-color:aqua;
+    display: inline;
+    margin-left: 10%;
+    border-radius: 100px;
+    padding: 10px;
+    font-size: 100%;
+    color: var(--clr-light);
+    cursor: pointer;
+}
 
 .button {
     background-color: #FF00BF;
@@ -782,7 +813,9 @@ body {
     text-decoration: none;
 }
 
-
+.anncentry {
+    width: 300px;
+}
 
 .playerminidesclight {
     color: var(--clr-light);
@@ -827,6 +860,39 @@ body {
     
 }
 
+.announcementlist {
+    flex-wrap: wrap;
+    display: flex;
+    padding-left: 10%;
+}
+.allyinfodesc {
+    color: var(--clr-light);
+    opacity: 50%;
+    padding-left: 10%;
+    margin-top: -25px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    background-color: transparent;
+    
+}
+.announcdate {
+    color: red;
+    font-family: 'termina-reg';
+    padding-left: 10%;
+    font-size: 16px;
+}
+.announcauthor {
+    color: red;
+    font-family: 'termina-black';
+    padding-left: 10%;
+    font-size: 24px;
+}
+.announcinfo {
+    color: white;
+    font-family: 'termina-light';
+    padding-left: 10%;
+    font-size: 16px;
+}
 .plyname {
     font-family: 'termina-black';
     font-size: 500%;
