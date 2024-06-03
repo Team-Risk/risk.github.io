@@ -603,6 +603,13 @@ body {
     font-size: 1.5em;
 }
 
+.allycaptiontext {
+    color: var(--clr-light);
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: red;
+}
+
 .subcaptiontext {
     color: var(--clr-light);
     font-size: 1em;
@@ -612,7 +619,14 @@ body {
     margin-left: 20px;
     margin-top: 1%;
 }
-
+.riskalliancetopper {
+    text-transform: uppercase;
+    opacity: 50%;
+    text-decoration: underline;
+    color: white;
+    font-family: 'termina-black';
+    padding-left: 10%;
+}
 .gamesignifier {
     color: var(--clr-light);
     font-size: 10px;
@@ -623,14 +637,18 @@ body {
     margin-left: 10%;
     border-radius: 100px;
     padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
     font-size: 90%;
     transition: 1s;
     color: var(--clr-light);
+    text-transform: uppercase;
 }
 .allyeventnamesig {
     color: white;
     font-family: 'termina-black';
     font-size: 16px;
+    margin-top: 10px;
 }
 .allydesctext {
     color: whitE;
@@ -874,7 +892,6 @@ body {
     color: var(--clr-light);
     opacity: 50%;
     padding-left: 10%;
-    margin-top: -25px;
     font-size: 20px;
     padding-bottom: 20px;
     background-color: transparent;
@@ -883,20 +900,20 @@ body {
 .announcdate {
     color: red;
     font-family: 'termina-reg';
-    padding-left: 10%;
     font-size: 16px;
 }
 .announcauthor {
     color: red;
     font-family: 'termina-black';
-    padding-left: 10%;
     font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 .announcinfo {
     color: white;
     font-family: 'termina-light';
-    padding-left: 10%;
     font-size: 16px;
+    margin-bottom: 12px;
 }
 .plyname {
     font-family: 'termina-black';
@@ -1159,6 +1176,16 @@ footer {
     padding-top: 50px;
     font-size: 100px;
 }
+.tourneyheadally {
+    color: var(--clr-light);
+    background-color: var(--clr-dark);
+    display: inline;
+    font-family: 'termina-black';
+    padding-left: 10%;
+    display: flex;
+    padding-top: 50px;
+    font-size: 100px;
+}
 
 .jtc {
     display: flex;
@@ -1409,6 +1436,28 @@ footer {
     .tourneyhead {
         font-size: 25px;
     }
+    .riskalliancetopper {
+        font-size: 12px;
+    }
+    .announcauthor {
+        font-size: 18px;
+    }
+    .tourneyheadally {
+        font-size: 50px;
+    }
+    .allycaptiontext {
+        font-size: 16px;
+    }
+    .allyinfodesc {
+        font-size: 15px;
+    }
+    .allytextmini {
+        font-size: 10px;
+        background-color: transparent;
+    }
+    .button2 {
+        font-size: 10px;
+    }
     .plyerlstentry {
         margin: 25px;
     }
@@ -1421,6 +1470,9 @@ footer {
         padding-left: 10%;
         font-size: 15px;
         width: 150px;
+    }
+    .allyeventnamesig {
+        margin-bottom: 20px;
     }
     .plyinfolistitem {
         margin-left: 10%;
@@ -1458,5 +1510,10 @@ footer {
     .viddally {
         scale: 0%;
         position: fixed;
+    }
+    .allydesctext {
+        font-size: 12px;
+        width: 300px;
+        text-wrap: wrap;
     }
   }
