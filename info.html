@@ -27,7 +27,7 @@
       </ul>
     </div>
     <div class="pad">
-    <img src="./images/RiskWordmark.png" width="500px" class="allywordmark">
+    <img src="./images/RiskWordmark.png" width="500px" class="allywordmark" onclick="secret12()">
     <iframe  class="viddally" src="https://www.youtube.com/embed/JHKlwdj6dGg" title="Team Risk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <h1 class="newsitemnopadding">information</h1>
     <p class="blogtextally">Welcome to RISK Esports. A small creativity based organization, which started as a small editing team, back in 2023. We're seeking to
@@ -46,14 +46,15 @@
     </div>
 
       <ul class="riskalliancelist">
-        <li class="allyentry" id="riskallianceloading" onclick="id1()"><video src="./images/RiskAllianceLoading0001-0250.mp4" autoplay loop class="riskallianceicon"></video>
+        <li class="allyentry" id="riskallianceloading" onclick="id1()"><video src="./images/reed0001-0250.mp4" autoplay loop class="riskallianceiconback"></video>
+          <video src="./images/RiskAllianceLoading0001-0250.mp4" autoplay loop class="riskallianceicon"></video>
         <h1 class="newsitemally">TIER 1</h1>
         <h1 class="alliancetitle"><a href="https://discord.gg/VPkWXxRBCC" class="nolink4">WSE</a></h1>
         <h1 class="alliancetitle"><a href="https://discord.gg/fjNAzBsSmB" class="nolink4">Brawlcentral</a></h1>
         <h1 class="alliancetitle"><a href="https://discord.gg/ApuNkA5jZx" class="nolink4">Salvia</a></h1>
         <h1 class="alliancetitle"><a href="https://discord.gg/ApuNkA5jZx" class="nolink4">Brawlhalla Editing Collective</a></h1></li>
 
-        <li class="allyentry" id="riskallianceloading2"><video src="./images/RiskAllianceLoading0001-0250.mp4" autoplay loop class="riskallianceicon"></video>
+        <li class="allyentry" id="riskallianceloading2"  onclick="id2()"><video src="./images/RiskAllianceLoading0001-0250.mp4" autoplay loop class="riskallianceicon"></video>
           <h1 class="alliancetext">risk alliance</h1>
           <h1 class="alliancetext2">organization meets friendship.</h1>
           <h1 class="newsitemally">TIER 2</h1>
@@ -61,7 +62,7 @@
           <h1 class="alliancetitleold">Goons</h1>
           <h1 class="alliancetitleold">Team Pulsar</h1>
           <h1 class="alliancetitleold">Intense Domain</h1></li>
-        <li class="allyentry" id="riskallianceloading3"><video src="./images/RiskAllianceLoading0001-0250.mp4" autoplay loop class="riskallianceicon"></video>
+        <li class="allyentry" id="riskallianceloading3"  onclick="id3()"><video src="./images/RiskAllianceLoading0001-0250.mp4" autoplay loop class="riskallianceicon"></video>
         <h1 class="newsitem">TIER 3</h1>
         <h1 class="alliancetitle">Kung Foot Community</h1>
         <h1 class="alliancetitle">Hushed</h1>
@@ -79,10 +80,35 @@
       Team RISK (2024)
     </footer>
     <script>
+      var t1 = 0
+      var secret1 = false
       function id1(){
-      var audio = new Audio('./images/1d.mp3');
-      VideoFrame.getElementById('riskallianceloading').src = atob(value1);
-      audio.play();
+
+      t1 = t1 + 3
+
+  }
+  function id2(){
+
+      t1 = t1 + 2
+
+      if (t1 == 11) {
+        console.log("testt")
+        var audio = new Audio('./images/death.wav');
+        audio.play(); 
+        secret1 = true
+        
+      }
+  }
+  function id3(){
+
+      t1 = t1 + 6
+
+  }
+  function secret12(){
+    console.log(secret1)
+      if (secret1 === true) {
+        window.location.href = "death.html"
+      }
   }
   
 
