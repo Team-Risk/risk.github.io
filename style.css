@@ -632,6 +632,11 @@ body {
     font-family: 'termina-black';
     font-size: 16px;
 }
+.allydesctext {
+    color: whitE;
+    padding-left: 10%;
+    width: 1500px;
+}
 .button2:hover {
     background-color:aqua;
     display: inline;
