@@ -874,6 +874,10 @@ body {
     margin-left: 5%;
     margin-right: 5%;
 }
+.allylogo {
+    width: 500px;
+    padding-left: 5%;
+}
 
 .plyinfodesc {
     color: var(--clr-light);
@@ -1409,6 +1413,9 @@ footer {
     .allywordmark {
         width: 250px;
 
+    }
+    .allylogo {
+        width: 250px;
     }
     .blogheadsub {
         color: white;
