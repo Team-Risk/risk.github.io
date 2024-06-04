@@ -137,26 +137,36 @@
 
 @font-face {
     font-family: "termina-reg";
-    src: url("./fonts/terminatest-regular-webfont.woff") format("woff"),
+    src: url("./fonts/terminatest-regular-webfont.woff") format("woff");
+    font-weight: 1 1000;
+
 }
 @font-face {
     font-family: "tomatoes";
-    src: url("./fonts/Tomatoes-O8L8.ttf") format("ttf"),
+    src: url("./fonts/Tomatoes-O8L8.ttf") format("ttf");
+    font-weight: 1 1000;
+
 }
 
 @font-face {
     font-family: "termina-black";
-    src: url("./fonts/terminatest-black-webfont.woff") format("woff"),
+    src: url("./fonts/terminatest-black-webfont.woff") format("woff");
+    font-weight: 1 1000;
+
 }
 
 @font-face {
     font-family: "termina-med";
-    src: url("./fonts/terminatest-bold-webfont.woff") format("woff"),
+    src: url("./fonts/terminatest-bold-webfont.woff") format("woff");
+    font-weight: 1 1000;
+
 }
 
 @font-face {
     font-family: "termina-light";
-    src: url("./fonts/terminatest-extralight-webfont.woff") format("woff"),
+    src: url("./fonts/terminatest-extralight-webfont.woff") format("woff");
+    font-weight: 1 1000;
+
 }
 
 * {
@@ -480,11 +490,24 @@
     margin-bottom: 25px;
     margin-left: -5%;
 }
+.flex {
+    display: flex;
+    justify-content: center;
+}
+.solidlineg {
+    background-color: yellow;
+    display: flex;
+    height: 1px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: -5%;
+}
 .alliancetext {
     font-family: 'termina-black';
     color: aqua;
     position: absolute;
     justify-content: center;
+    text-transform: uppercase;
 }
 
 .alliancetitle {
@@ -1202,6 +1225,7 @@ footer {
     font-size: 125%;
     padding: 10px
 }
+
 
 .jtc:hover {
     display: flex;
