@@ -431,6 +431,10 @@
     margin-left: 5px;
 }
 
+.fixemoji {
+    width: 18px;
+}
+
 .riskallianceicon {
     width: 300px;
     justify-content: center;
@@ -949,6 +953,8 @@ body {
     font-family: 'termina-light';
     font-size: 16px;
     margin-bottom: 12px;
+    text-wrap: wrap;
+    width: 300px;
 }
 .plyname {
     font-family: 'termina-black';
