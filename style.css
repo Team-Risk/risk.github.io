@@ -147,7 +147,14 @@
     font-weight: 1 1000;
 
 }
-
+.bgfix {
+    background-color: black;
+}
+.opace {
+    font-family: 'termina-light';
+    color: white;
+    opacity: 50%;
+}
 @font-face {
     font-family: "termina-black";
     src: url("./fonts/terminatest-black-webfont.woff") format("woff");
@@ -889,6 +896,7 @@ body {
 .plyerlstentry {
     margin: 50px;
 }
+
 .playertophead {
     display: flex;
 }
@@ -1161,6 +1169,33 @@ html, body {
     color: red;
     font-family: 'termina-black';
 }
+.playerfundamnt {
+    font-family: 'termina-black';
+    color: white;
+    animation-name: flash;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    font-size: 32px;
+}
+
+@keyframes flash {
+    0% {
+        color: white;
+    }
+    50% {
+        color: yellow;
+    }
+    100% {
+        color: white;
+    }
+    
+}
+.nolinkimp2 {
+    text-decoration: none;
+    color: yellow;
+    font-family: 'termina-black';
+}
+
 
 .tournamentlist {
     padding-left: 10%;
