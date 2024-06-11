@@ -941,6 +941,13 @@ body {
     font-family: 'termina-reg';
     font-size: 16px;
 }
+
+.donobutton {
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
 .announcauthor {
     color: red;
     font-family: 'termina-black';
@@ -1143,6 +1150,13 @@ em {
     background-color: transparent;
 }
 
+.nolink09 {
+    text-decoration: none;
+    color:#030146;
+    font-family: 'termina-black';
+    background-color: transparent;
+}
+
 .nolink3 {
     text-decoration: none;
     color: var(--clr-light);
@@ -1335,6 +1349,14 @@ footer {
 }
 
 .blogtext {
+    color: white;
+    width: 720px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.blogtextm {
     color: white;
     width: 720px;
     display: flex;
@@ -1587,5 +1609,12 @@ footer {
         font-size: 12px;
         width: 300px;
         text-wrap: wrap;
+    }
+    .blogtextm {
+        font-size: 12px;
+        margin-left: 10%;
+    }
+    .donobutton {
+        scale: 75%;
     }
   }
