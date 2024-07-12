@@ -519,6 +519,7 @@
     position: absolute;
     justify-content: center;
     text-transform: uppercase;
+    background-color: black;
 }
 
 .alliancetitle {
