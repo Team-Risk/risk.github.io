@@ -1618,4 +1618,10 @@ footer {
     .donobutton {
         scale: 75%;
     }
+    .fourzerofour {
+        scale: 250%;
+    }
+    .fourzfsub {
+        font-size: 12px;
+    }
   }
