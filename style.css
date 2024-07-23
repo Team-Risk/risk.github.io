@@ -141,6 +141,13 @@
     font-weight: 1 1000;
 
 }
+
+@font-face {
+    font-family: "pixelized";
+    src: url("./fonts/Gamer.woff") format("woff");
+    font-weight: 1 1000;
+
+}
 @font-face {
     font-family: "tomatoes";
     src: url("./fonts/Tomatoes-O8L8.ttf") format("ttf");
@@ -1158,6 +1165,23 @@ em {
     background-color: transparent;
 }
 
+.adainterface {
+    text-decoration: none;
+    color:white;
+    font-family: 'pixelized';
+    background-color: transparent;
+    font-size: 64px;
+    text-wrap: wrap;
+}
+
+.adainterfacesec {
+    text-decoration: none;
+    color:white;
+    font-family: 'pixelized';
+    background-color: transparent;
+    font-size: 12px;
+    text-wrap: wrap;
+}
 .nolink3 {
     text-decoration: none;
     color: var(--clr-light);
