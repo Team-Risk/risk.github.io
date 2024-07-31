@@ -1504,6 +1504,11 @@ footer {
     opacity: 50%;
 }
 
+.botyt {
+    padding-left: 10%; 
+    margin-bottom: 25px;
+}
+
 .secret {
     width: 500px;
     display: flex;
@@ -1735,5 +1740,40 @@ footer {
     }
     .fourzfsub {
         font-size: 12px;
+    }
+    .tubi {
+        width: 250px;
+    }
+    .bothandler {
+        display: contents;
+    }
+
+    .headbot {
+        font-size: 26px;
+    }
+    .headbot2 {
+        font-size: 12px;
+    }
+    .headbot3 {
+        font-size: 12px;
+    }
+    .headbot5 {
+        font-size: 26px;
+    }
+    .bbh {
+        scale: 50%;
+        margin-left: 0px;
+    }
+    .addbotbutton {
+        margin-left: 0;
+    }
+    .logimg {
+        width: 300px;
+        margin-left: 10%;
+    }
+    .botyt {
+        width: 300px;
+        height: 400px;
+        margin-left: 10%;
     }
   }
