@@ -1158,6 +1158,22 @@ em {
     background-color: transparent;
 }
 
+
+.bothandler {
+    display: flex;
+    background-color: transparent;
+}
+.tubi {
+    border-radius: 100%;
+    width: 500px;
+    margin-left: 10%;
+}
+
+
+
+
+
+
 .nolink09 {
     text-decoration: none;
     color:#030146;
@@ -1363,6 +1379,78 @@ footer {
     padding-top: 50px;
     font-size: 500%;
 }
+
+
+.headbot {
+    color: var(--clr-light);
+    background-color: var(--clr-dark);
+    display: inline;
+    font-family: 'termina-black';
+    display: flex;
+    padding-top: 50px;
+    font-size: 500%;
+    background-color: transparent;
+    margin-left: 100px;
+}
+
+.addbotbutton {
+    background-color: #0028FF;
+    padding: 15px;
+    border-radius: 100px;
+    color: white;
+    font-family: 'termina-black';
+    margin-left: 10%;
+    
+}
+
+
+.bbh {
+    margin-top: 5%;
+}
+.logimg {
+    border-radius: 10px;
+    padding-left: 10%;
+}
+.headbot2 {
+    color: var(--clr-light);
+    background-color: var(--clr-dark);
+    display: inline;
+    font-family: 'termina-black';
+    display: flex;
+    padding-top: 10px;
+    font-size: 150%;
+    background-color: transparent;
+    margin-left: 100px;
+}
+
+.headbot5 {
+    color: var(--clr-light);
+    background-color: var(--clr-dark);
+    display: inline;
+    font-family: 'termina-black';
+    display: flex;
+    padding-top: 10px;
+    font-size: 250%;
+    background-color: transparent;
+    margin-left: 100px;
+}
+
+.nobg {
+    background-color: transparent;
+}
+.headbot3 {
+    color: var(--clr-light);
+    background-color: var(--clr-dark);
+    display: inline;
+    font-family: 'termina-black';
+    display: flex;
+    padding-top: 10px;
+    font-size: 100%;
+    background-color: transparent;
+    margin-left: 100px;
+    opacity: 50%;
+}
+
 
 .blogtitle {
     color: var(--clr-light);
