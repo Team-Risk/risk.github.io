@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>truth seek</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="header">
+      <img src="images/Color.png" width="100px">
+      <ul >
+        <li class="listitem">
+          roster
+        </li >
+        <li class="listitem">
+          tournaments
+        </li>
+        <li class="listitem">
+          contact
+        </li>
+        <li class="listitem" >
+          join 
+        </li>
+      </ul>
+    </div>
+    <video class="featureleak3" src="./images/0001-0250.mp4" autoplay loop></video>
+    <div class="transc2">
+      <h1 style="color: chartreuse; ">what truth lies within the rock?</h1>
+      <input type="text" id="dark" class="darkheart-trans">
+    
+    <button onclick="output2()">find truth</button>
+    <h1 id="result" class="decoded2"></h1>
+    
+  </div>
+      <video src="./images/riskambience.ogg" autoplay loop width="0px"></video>
+      <video src="./images/C2larkium.mp3" autoplay loop width="0px"></video>
+    <main>
+
+    </main> 
+	<script>
+
+function output2(){
+    var value1 = document.getElementById('dark').value;
+
+    var tessy = atob(value1);
+    var tessy = encodeURIComponent(tessy);
+
+    document.getElementById('result').innerHTML = btoa(tessy);
+    var audio = new Audio('./brf.wav');
+    audio.play();
+}
+  </script>
+  </body>
+</html>

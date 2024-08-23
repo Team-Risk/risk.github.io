@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>interface</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+      <h2 class="adainterface">unidentified user detected.</h2>
+      <h2 class="adainterface">initiating multi factor authenthication.</h2>
+
+      <h2 class="sqq">security question one:</h2>
+      <h2 class="sqq2">what is the state of this individual?</h2>
+      <h2 class="sqq3">FAIT</h2>
+      <input type="text" id="dark" class="darkheart-trans">
+      <h2 class="sqq">security question two:</h2>
+      <h2 class="sqq2">in what location did you store your last observation booth?</h2>
+      <input type="text" id="dark1" class="darkheart-trans">
+      <h2 class="sqq">security question three:</h2>
+      <h2 class="sqq2">what are your initials? Formatted "?.?"</h2>
+      
+      <input type="text" id="dark2" class="darkheart-trans">
+  </br>
+
+      <button onclick="output2()" class="submissionbutton">submit</button>
+</br>
+      <h1 class="quickresult" id="quickresult"></h1>
+      <video src="./images/puzzlethemeWW.wav" autoplay loop width="0px"></video>
+  </body>
+  <script>
+
+    function output2(){
+        var value1 = document.getElementById('dark').value.toString();
+        var value2 = document.getElementById('dark1').value.toString();
+        var value3 = document.getElementById('dark2').value.toString();
+
+
+        if (value1.toLowerCase() === "dead") {
+          if (value2.toLowerCase() === "fangwild") {
+            if (value3 === "W.W") {
+              location.href="riskesports.org/aftermath"
+              return
+            }
+          }
+        }
+
+    }
+      </script>
+</html>

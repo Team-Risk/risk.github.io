@@ -41,6 +41,12 @@
     animation-name: decode;
     animation-duration: 3s;
 }
+.decoded2 {
+    color: chartreuse;
+    animation-name: decode;
+    animation-duration: 3s;
+}
+
 
 @keyframes decode {
     0% {
@@ -61,6 +67,11 @@
     margin: auto;
     margin-left: 50%;
     margin-top: 50%;
+}
+.transc2 {
+    margin: auto;
+    margin-left: 50%;
+    margin-top:-15%;
 }
 
 .nothing {
@@ -347,7 +358,9 @@
     font-size: 15px;
     cursor:pointer;
 }
-
+.quickresult {
+    color: red;
+}
 
 #background-video {
     width: 100vw;
@@ -800,7 +813,12 @@ body {
 .imgrnd {
     border-radius: 20px;
 }
-
+.featureleak3 {
+    scale: 25%;
+    margin-left: 25%;
+    margin-top: 100px;
+    margin-right: 25%;
+}
 
 
 @keyframes slide {
@@ -1190,6 +1208,35 @@ em {
     text-wrap: wrap;
 }
 
+.submissionbutton {
+    color: chartreuse;
+}
+.sqq {
+    text-decoration: none;
+    color:chartreuse;
+    font-family: 'pixelized';
+    background-color: transparent;
+    font-size: 64px;
+    text-wrap: wrap;
+}
+.sqq2 {
+    text-decoration: none;
+    color:chartreuse;
+    font-family: 'pixelized';
+    background-color: transparent;
+    font-size: 32px;
+    text-wrap: wrap;
+}
+
+.sqq3 {
+    text-decoration: none;
+    color: aqua;
+    font-family: 'pixelized';
+    background-color: transparent;
+    font-size: 32px;
+    text-wrap: wrap;
+}
+
 .adainterfacesec {
     text-decoration: none;
     color:white;
@@ -1434,6 +1481,11 @@ footer {
     font-size: 250%;
     background-color: transparent;
     margin-left: 100px;
+}
+
+.accessbutton {
+    color: chartreuse;
+    padding: 10%;
 }
 
 .nobg {
