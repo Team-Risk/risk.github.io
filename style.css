@@ -1119,6 +1119,11 @@ body {
     color: var(--clr-light);
     text-decoration: none;
 }
+
+.navlink:hover {
+    font-family: 'termina-black';
+}
+
 em {
     font-family: 'termina-black';
 }
