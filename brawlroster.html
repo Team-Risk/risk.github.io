@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="header">
-      <img src="images/Color.png" width="100px">
+      <img src="images/Color.png" width="100px" onclick="play()" class="clickablelg">
       <ul >
         <li class="listitem">
           <a href="./" class="navlink">home</a>
@@ -129,7 +129,7 @@
     <h1 class="newsitem">casual</h1>
     <div>
       <ul class="playernamelist">
-        <li class="plyerlstentry"><h3 class="playername"><a href="./@simaz" class="nolink">simaz</a></h3> <h3 class="playerminidesc">Community member</h3><h4 class="miniregion">EU</h4>
+        <li class="plyerlstentry"><h3 class="playername"><a href="./@simaz" class="nolink">simaz</a></h3> <h3 class="playerminidesc">Tourney organizer</h3><h4 class="miniregion">EU</h4>
         </li>
         <li class="plyerlstentry"><h3 class="playername">mrchompeeyt</h3> <h3 class="playerminidesc">Community figure</h3><h4 class="miniregion">NA</h4>
         </li>
@@ -157,16 +157,40 @@
         </li>
         <li class="plyerlstentry"><h3 class="playername"><a href="" class="nolink">lex</a></h3> <h3 class="playerminidesc">Community member</h3><h4 class="miniregion">EU</h4>
         </li>
-
+        <li class="plyerlstentry"><h3 class="playername"><a href="" class="nolink">lumina</a></h3> <h3 class="playerminidesc">Community member</h3><h4 class="miniregion">EU</h4>
+        </li>
+        <li class="plyerlstentry"><h3 class="playername"><a href="" class="nolink">yellowww</a></h3> <h3 class="playerminidesc">Community member</h3><h4 class="miniregion">EU</h4>
+        </li>
+        <li class="plyerlstentry"><h3 class="playername"><a href="" class="nolink">maxwel</a></h3> <h3 class="playerminidesc">Community member</h3><h4 class="miniregion">EU</h4>
+        </li>
+        <li class="plyerlstentry"><h3 class="playername"><a href="" class="nolink">timo</a></h3> <h3 class="playerminidesc">Community member</h3><h4 class="miniregion">EU</h4>
+        </li>
+        <li class="plyerlstentry"><h3 class="playername"><a href="" class="nolink">jabojabobocoo</a></h3> <h3 class="playerminidesc">Community member</h3><h4 class="miniregion">EU</h4>
+        </li>
+        <li class="plyerlstentry"><h3 class="playername"><a href="" class="nolink">blue</a></h3> <h3 class="playerminidesc">Community member</h3><h4 class="miniregion">EU</h4>
+        </li>
 
       </ul>
     </div>
     <main>
 
     </main> 
+    <script>
+
+    </script>
+
+    <input type="button" value="PLAY" onclick="play()">
+    <audio id="audio" src="./far.mp3"></audio>
     <footer>
-      Team RISK (2024)
+      RISK Esports (2024)
     </footer>
+    
+
+    <script>function play() {
+    var audio = document.getElementById("audio");
+    audio.play();
+    }</script>
+
 	<script src="index.js"></script>
   </body>
 </html>
